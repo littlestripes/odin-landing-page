@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-family: "Georgia", serif;
+  margin: 0;
+}
+
+.header, .footer{
+  display: flex;
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+.header {
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.content {
+  min-height: 10vh;
+}
+
+.cards {
+}
+
+.card {
+}
+
+.quote {
+}
+
+.signup {
+}
