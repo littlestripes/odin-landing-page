@@ -6,25 +6,48 @@ body {
   margin: 0;
 }
 
+body * {
+  /* remove this later!! */
+  /*border: 2px dotted red;*/
+}
+
 .header, .footer{
   display: flex;
   background: #1f2937;
   color: #e5e7eb;
+  padding: 0 20vh;
 }
 
 .header {
+  flex-flow: column nowrap;
 }
 
-.footer {
-  justify-content: center;
+.header .top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.top h2 {
+  color: #f9faf8;
+}
+
+.header .links {
+  display: flex;
   align-items: center;
-  padding: 24px;
+  gap: 12px;
 }
 
 .hero h1 {
   font-size: 48px;
   font-weight: 700;
   color: #f9faf8;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
 }
 
 .content {
@@ -41,4 +64,9 @@ body {
 }
 
 .signup {
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
