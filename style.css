@@ -8,28 +8,29 @@ body {
 
 body * {
   /* remove this later!! */
-  /*border: 2px dotted red;*/
+  border: 2px dotted red;
 }
 
 .header, .footer{
   display: flex;
+  flex-flow: column nowrap;
   background: #1f2937;
   color: #e5e7eb;
   padding: 0 20vh;
-}
-
-.header {
-  flex-flow: column nowrap;
 }
 
 .header .top {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
 }
 
-.top h2 {
+.logo {
   color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .header .links {
@@ -38,10 +39,27 @@ body * {
   gap: 12px;
 }
 
-.hero h1 {
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.hero .main {
   font-size: 48px;
   font-weight: 700;
   color: #f9faf8;
+  padding: 0;
+}
+
+.image {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a9a9a9;
 }
 
 .footer {
