@@ -46,17 +46,23 @@ body * {
   padding: 4rem 0;
 }
 
-.hero .main {
+.hero .text {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.hero .heading {
   font-size: 48px;
   font-weight: 700;
   color: #f9faf8;
   padding: 0;
 }
 
-.image {
-  height: 300px;
+.hero .image {
+  min-height: 300px;
   width: 50%;
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   background: #a9a9a9;
