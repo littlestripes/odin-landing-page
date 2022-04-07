@@ -51,7 +51,8 @@ body * {
 .hero .text {
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .hero .text .heading {
@@ -64,15 +65,29 @@ body * {
 .hero .text .body {
   margin: 0;
   padding: 0;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero .image {
-  min-height: 300px;
   width: 50%;
   display: flex;
   flex-shrink: 0;
   justify-content: center;
   align-items: center;
+}
+
+.hero .image img {
+  height: auto;
+  width: 100%;
+}
+
+.hero .text .button {
+  color: #f9faf8;
+  background: #3882f6;
+  border-radius: 8px;
+  border: none;
+  padding: 4px 24px;
 }
 
 .footer {
