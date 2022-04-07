@@ -97,7 +97,18 @@ body * {
 }
 
 .content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   min-height: 10vh;
+  padding: 24px 0;
+}
+
+.content .heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
 }
 
 .cards {
