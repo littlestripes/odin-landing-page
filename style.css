@@ -9,7 +9,6 @@ body {
 }
 
 /*body * {*/
-  /*[> remove this later!! <]*/
   /*border: 2px dotted red;*/
 /*}*/
 
@@ -87,7 +86,9 @@ body {
   background: #3882f6;
   border-radius: 8px;
   border: none;
-  padding: 4px 24px;
+  padding: 8px 36px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .footer {
