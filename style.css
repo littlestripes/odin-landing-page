@@ -3,14 +3,13 @@
 body {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
   font-family: "Roboto", "Verdana", sans-serif;
   margin: 0;
 }
 
-/*body * {*/
-  /*border: 2px dotted red;*/
-/*}*/
+body * {
+  border: 2px dotted red;
+}
 
 .header, .footer{
   display: flex;
@@ -97,18 +96,18 @@ body {
   padding: 24px;
 }
 
-.content {
+.info {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   min-height: 10vh;
   padding: 48px 20vh;
-  gap: 48px;
   /* same padding as header and footer */
+  gap: 48px;
 }
 
-.content .heading {
+.info .heading {
   font-size: 36px;
   font-weight: 700;
   color: #1f2937;
