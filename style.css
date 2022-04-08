@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100');
 
 body {
   display: flex;
   flex-flow: column nowrap;
-  font-family: "Roboto", "Verdana", sans-serif;
+  font-family: "Roboto", "Helvetica", sans-serif;
   margin: 0;
 }
 
@@ -141,6 +141,25 @@ body * {
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
+  background: #e5e7eb;
+  padding: 64px 0;
+  margin: 48px 0;
+}
+
+.quote .body {
+  padding: 0 40vh;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote .attribution {
+  text-align: right;
+  font-weight: 700;
+  padding: 0 50vh;
 }
 
 .signup {
