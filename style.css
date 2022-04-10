@@ -12,7 +12,7 @@ body {
   flex-flow: column nowrap;
   background: #1f2937;
   color: #e5e7eb;
-  padding: 0 20vh;
+  padding: 0 12vw;
 }
 
 .header .top {
@@ -45,6 +45,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 4rem 0;
+  gap: 4px;
 }
 
 .hero .text {
@@ -103,7 +104,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  padding: 48px 20vh;
+  padding: 48px 12vw;
   /* same padding as header and footer */
   gap: 48px;
 }
@@ -127,7 +128,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vh;
+  width: 30vh; /* if I change this to vw it breaks */
 }
 
 .card img {
@@ -148,10 +149,11 @@ body {
   background: #e5e7eb;
   padding: 64px 0;
   margin: 48px 0;
+  gap: 16px;
 }
 
 .quote .body {
-  padding: 0 40vh;
+  padding: 0 20vw;
   font-size: 36px;
   font-style: italic;
   font-weight: 100;
@@ -161,13 +163,13 @@ body {
 .quote .attribution {
   text-align: right;
   font-weight: 700;
-  padding: 0 50vh;
+  padding: 0 25vw;
 }
 
 .signup {
   display: flex;
   justify-content: space-between;
-  margin: 48px 20vh;
+  margin: 48px 12vw;
   padding: 36px 96px;
   background: #3882f6;
   color: #f9faf8;
